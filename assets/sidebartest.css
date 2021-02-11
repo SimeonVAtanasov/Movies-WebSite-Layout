@@ -1,0 +1,21 @@
+body {
+    margin:0;
+  }
+  
+  .container {
+    display: flex;
+    min-height:100px;
+  }
+  
+  .sidebar {
+    position: relative;
+    left: 0;
+    width: 200px;
+    background-color: #ccc;
+    transition: all .25s;
+  }
+  
+  .sidebar.collapsed {
+    left:-200px;
+    margin-right:-200px;
+  }

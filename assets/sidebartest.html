@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sidebartest.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="sidebar" id="sidebar">
+      SIDEBAR
+    </div>
+    <div class="content">
+      lorem bla bla
+      <button onclick="document.getElementsByClassName('sidebar')[0].classList.toggle('collapsed')">
+        toggle Sidebar
+      </button>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- отделен лейбъл текст  и го слагам където искаm (span ili label), местя ги където тр
+абсолют позишън и като се цънке да се мести нагоре с транзишън ease all пойнтер-евентс: none  -->
